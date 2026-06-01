@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+body {
+   color: rgb(0, 0, 0);
+}
+
+.container {
+   width: 100%;
+   max-width: 14000px;
+   margin: 100px auto;
+}
+
+h1 {
+   margin-bottom: 20px;
+}
+
+a {
+   padding: 8px 15px;
+   border-radius: 4px;
+   text-decoration: none;
+   color: #000000;
+   background: #ffa600;
+   transition: 0.3s;
+}
+
+a:hover {
+   color: #ffffff;
+   background: #686868;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 15px;
+}
+
+th,
+td {
+   border-bottom: 1px solid #ddd;
+   padding: 15px;
+}
+
+th {
+   text-align: left;
+}
+
+.btn-delete {
+   background: #c40101;
+   margin-left: 5px;
+}
+
+.wrapper {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: #1f1f1f;
+}
+
+.form-wrapper {
+   background: #ddd;
+   width: 700px;
+   padding: 40px 40px 50px;
+   border-radius: 10px;
+}
+
+.form-wrapper h1 {
+   text-align: center;
+}
+
+.form-wrapper h1::after  {
+   content: "";
+    width: 300px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    background-color: #ffa600;
+}
+
+input,
+textarea {
+   width: 100%;
+   margin: 12px;
+   padding: 12px;
+   border: 2px solid #ddd;
+   outline: none;
+   border-radius: 6px;
+   font-size: 16px;
+}
+
+.form-wrapper input, 
+.form-wrapper select {
+   width: 100%;
+   margin: 12px;
+   color: #5c5c5c;
+   padding: 12px;
+   border: 2px solid #ddd;
+   outline: none;
+   border-radius: 6px;
+   font-size: 16px;
+}
+.form-wrapper select {
+   cursor: pointer;
+   background-repeat: no-repeat;
+   background-position: right 15px center;
+   background-size: 18px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+textarea {
+   height: 150px;
+   resize: none;
+}
+
+.btn-box {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+
+.btn-box button {
+   padding: 8px 50px;
+   border: none;
+   font-size: 16px;
+   color:#000000;
+   border-radius: 4px;
+   background: #ffa600;
+   transition: 0.3s;
+}
+
+.btn-box button:hover {
+   color:#ffffff;
+   background:#5c5c5c;
+}
+
+.btn-box a {
+   background: transparent;
+   color: #000000;
+   padding: 6px 50px;
+}
